@@ -1,12 +1,22 @@
+/* Table of Contents:
+    1. Container
+    2. Nav Bar
+    3. Header
+    4. Paragraphs/Content
+    5. General Styles
+ */
+
 body{
     background-color:antiquewhite;
     font-family: "Comic Sans MS";
 }
+/* 1. Container */
 .container{
     width:1200px;
     background-color:grey;
     margin:auto;
 }
+/* 2. Header */
 .headerAndLogo{
     width:inherit;
     height:200px;
@@ -16,6 +26,8 @@ body{
 .headerImage{
     width:1200px;
 }
+
+/* 3. Nav Bar */
 .navigation{
     width:1200px;
     height:20px;
@@ -27,6 +39,32 @@ body{
     text-align:center;
 
 }
+
+.navigation ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow:hidden;
+    display:inline-block;
+}
+.navigation li{
+    float:left;
+}
+.navigation li a {
+    display: block;
+    color: sienna;
+    text-align:center;
+    text-decoration: none;
+    padding: 0px 16px 0px 16px;
+}
+.navigation li a:hover{
+    background:lightgoldenrodyellow;
+}
+.active {
+    background-color: lightgoldenrodyellow;
+}
+
+/* 4. Paragraphs/Content */
 .paragraphs{
     width:1160px;
     height:40px;
@@ -34,9 +72,22 @@ body{
     margin:auto;
     padding:20px 20px 20px 20px;
     color:antiquewhite;
-    font-size:17px;
+    font-size:16px;
+    text-align:center;
+
+}
+.secondParagraphs{
+    width:1160px;
+    height:100px;
+    background-color:rebeccapurple;
+    margin:auto;
+    padding:20px 20px 20px 20px;
+    float:left;
+    color:antiquewhite;
+    font-size:16px;
     text-align:center;
 }
+
 .box1{
     width:700px;
     height:360px;
@@ -48,15 +99,7 @@ body{
     font-size:20px;
     text-align:center;
 }
-img{
-    width:90%;
-}
-.floodimage{
-    width:300px;
-    height:300px;
-    float:right;
-    padding:50px;
-}
+
 .box2{
     width:500px;
     height:360px;
@@ -68,43 +111,31 @@ img{
     font-size:20px;
     text-align:center;
 }
-.secondParagraphs{
-    width:1160px;
-    height:150px;
-    background-color:rebeccapurple;
+
+img{
+    width:90%;
+}
+
+.list{
+    width:720px;
+    height:460px;
+    background-color:lightblue;
     margin:auto;
-    padding:20px 20px 20px 20px;
+    padding: 20px 40px 20px 40px;
+    float: right;
+}
+.floodimage{
+    width:300px;
+    height:400px;
     float:left;
-    color:antiquewhite;
-    font-size:18px;
-    text-align:center;
+    padding:50px;
+    background-color:lightpink;
 }
-ul{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    overflow:hidden;
-    display:inline-block;
-}
-li{
-    float:left;
-}
-li a {
-    display: block;
-    color: sienna;
-    text-align:center;
-    text-decoration: none;
-    padding: 0px 16px 0px 16px;
-}
-li a:hover{
-    background:lightgoldenrodyellow;
-}
-/*Opt active class*/
-.active {
-    background-color: lightgoldenrodyellow;
-}
+
+
 
 h2{
     font:inherit;
+    font-size:20px;
     text-decoration:underline;
 }
