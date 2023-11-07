@@ -113,6 +113,65 @@ body{
     text-align:center;
 }
 
+.miniheader1{
+    width:480px;
+    height:60px;
+    background-color:purple;
+    float:left;
+    text-align:center;
+    padding:10px;
+    color:black;
+    font-size:20px;
+    text-align:center;
+}
+.miniheader2{
+    width:680px;
+    height:60px;
+    background-color:yellow;
+    float:right;
+    text-align:center;
+    padding:10px;
+    color:black;
+    font-size:20px;
+    text-align:center;
+}
+.box3{
+    width:460px;
+    height:860px;
+    background-color:red;
+    float:left;
+    padding:20px;
+    margin:auto;
+    color:black;
+    font-size:18px;
+    text-align:center;
+}
+.box4{
+    width:660px;
+    height:860px;
+    background-color:blue;
+    float:right;
+    padding:20px;
+    margin:auto;
+    color:black;
+    font-size:20px;
+    text-align:center;
+}
+.box5{
+    width:1160px;
+    height:800px;
+    padding:20px;
+    background-color:lemonchiffon;
+    float:left;
+    margin:auto;
+    color:black;
+    font-size:16px;
+    text-align:center;
+}
+.secondTMBGphoto{
+    height: 288px;
+    width: 512px;
+  }
 img{
     width:90%;
 }
@@ -132,13 +191,17 @@ img{
     padding:50px;
     background-color:lightpink;
 }
-
+.album{
+    width:100px;
+    height:100px;
+    margin:10px;
+}
 table{
-    border: 3px black;
-    padding:4px;
-    mso-cellspacing: 5px;
+    border: 3px;
+    border-spacing:4px;
     background-color:white;
     float: left;
+    margin:auto;
 
 }
 
@@ -146,4 +209,26 @@ h2{
     font:inherit;
     font-size:20px;
     text-decoration:underline;
+}
+
+#tablerow1{
+    background-color:lightpink;
+}
+#tablerow2{
+    background-color:lightskyblue;
+}
+#tablerow3{
+    background-color:lightgreen;
+}
+#tablerow4{
+    background-color:orangered;
+}
+#tablerow5{
+    background-color:orange;
+}
+#tablerow6{
+    background-color:plum;
+}
+#tablerow7{
+    background-color:hotpink;
 }
