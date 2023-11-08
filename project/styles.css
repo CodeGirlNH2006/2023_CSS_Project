@@ -1,15 +1,12 @@
 /* Table of Contents:
     1. Container
-    2. Nav Bar
-    3. Header
+    2. Header
+    3. Nav Bar
     4. Paragraphs/Content
     5. General Styles
  */
 
-body{
-    background-color:antiquewhite;
-    font-family: "Comic Sans MS";
-}
+
 /* 1. Container */
 .container{
     width:1200px;
@@ -159,9 +156,7 @@ body{
     height: 288px;
     width: 512px;
   }
-img{
-    width:90%;
-}
+
 
 .list{
     width:720px;
@@ -182,20 +177,7 @@ img{
     height:100px;
     margin:10px;
 }
-table{
-    border: 3px;
-    border-spacing:4px;
-    background-color:white;
-    float: left;
-    margin:auto;
 
-}
-
-h2{
-    font:inherit;
-    font-size:30px;
-    text-decoration:underline;
-}
 
 #tablerow1{
     background-color:lightpink;
@@ -219,6 +201,24 @@ h2{
     background-color:hotpink;
 }
 
-.footer{
-    float:left;
+/* 5. General Styles */
+body{
+    background-color:antiquewhite;
+    font-family: "Comic Sans MS";
+}
+h2{
+    font:inherit;
+    font-size:30px;
+    text-decoration:underline;
+}
+table{
+    border: 3px;
+    border-spacing:4px;
+    background-color:white;
+    float: left;
+    margin:auto;
+
+}
+img{
+    width:90%;
 }
