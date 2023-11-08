@@ -13,14 +13,12 @@ body{
 /* 1. Container */
 .container{
     width:1200px;
-    background-color:grey;
     margin:auto;
 }
 /* 2. Header */
 .headerAndLogo{
     width:inherit;
     height:200px;
-    background-color:darkgreen;
     margin:auto;
 }
 .headerImage{
@@ -31,10 +29,10 @@ body{
 .navigation{
     width:1200px;
     height:20px;
-    background-color:goldenrod;
     margin:auto;
     padding:30px 0px 30px 0px;
     color:black;
+    background-color:goldenrod;
     font-size:25px;
     text-align:center;
 
@@ -67,32 +65,29 @@ body{
 /* 4. Paragraphs/Content */
 .paragraphs{
     width:1160px;
-    height:40px;
-    background-color:rebeccapurple;
+    height:80px;
     margin:auto;
     padding:20px 20px 20px 20px;
-    color:antiquewhite;
+    color:black;
     float:left;
-    font-size:16px;
+    font-size:20px;
     text-align:center;
 
 }
 .secondParagraphs{
     width:1160px;
-    height:100px;
-    background-color:rebeccapurple;
+    height:150px;
     margin:auto;
     padding:20px 20px 20px 20px;
     float:left;
-    color:antiquewhite;
-    font-size:16px;
+    color:black;
+    font-size:20px;
     text-align:center;
 }
 
 .box1{
     width:700px;
     height:360px;
-    background-color:lightpink;
     margin:auto;
     padding:20px 0px 20px 0px;
     float:left;
@@ -104,7 +99,6 @@ body{
 .box2{
     width:500px;
     height:360px;
-    background-color:lightblue;
     margin:auto;
     padding:20px 0px 20px 0px;
     float:right;
@@ -116,7 +110,6 @@ body{
 .miniheader1{
     width:480px;
     height:60px;
-    background-color:purple;
     float:left;
     text-align:center;
     padding:10px;
@@ -127,7 +120,6 @@ body{
 .miniheader2{
     width:680px;
     height:60px;
-    background-color:yellow;
     float:right;
     text-align:center;
     padding:10px;
@@ -138,7 +130,6 @@ body{
 .box3{
     width:460px;
     height:860px;
-    background-color:red;
     float:left;
     padding:20px;
     margin:auto;
@@ -149,7 +140,6 @@ body{
 .box4{
     width:660px;
     height:860px;
-    background-color:blue;
     float:right;
     padding:20px;
     margin:auto;
@@ -158,14 +148,13 @@ body{
     text-align:center;
 }
 .box5{
-    width:1160px;
-    height:800px;
-    padding:20px;
-    background-color:lemonchiffon;
+    width:660px;
+    height:1100px;
+    padding:20px 270px;
     float:left;
     margin:auto;
     color:black;
-    font-size:16px;
+    font-size:20px;
     text-align:center;
 }
 .secondTMBGphoto{
@@ -179,9 +168,9 @@ img{
 .list{
     width:720px;
     height:460px;
-    background-color:lightblue;
     margin:auto;
     padding: 20px 40px 20px 40px;
+    font-size:16px;
     float: right;
 }
 .floodimage{
@@ -189,7 +178,6 @@ img{
     height:400px;
     float:left;
     padding:50px;
-    background-color:lightpink;
 }
 .album{
     width:100px;
@@ -207,7 +195,7 @@ table{
 
 h2{
     font:inherit;
-    font-size:20px;
+    font-size:30px;
     text-decoration:underline;
 }
 
@@ -231,4 +219,8 @@ h2{
 }
 #tablerow7{
     background-color:hotpink;
+}
+
+.footer{
+    float:left;
 }
